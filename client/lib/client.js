@@ -1,9 +1,9 @@
 import sanityClient from '@sanity/client'
 
 export const client = sanityClient({
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+  projectId: '185di6j4',
   dataset: 'production',
   apiVersion: 'v1',
-  token: process.env.NEXT_PUBLIC_SANITY_TOKEN,
+  token: 'sk0JOtBPV8BAUA9BNW0zR3uEfXxXhuYpYDqFL4vFAsVvBfklT0cHjUpS3x5bjsJHwqxlKdV8UYSFt436wn13R2eVgsyFsPjFXMjk2HqVlzsm2sThFEfW7tAvTjos0Vlb4hD1dyLO7hH3LE71sujtfcu2PJ4MQEzCbFUCD0eNNnc2WKGLR7nf',
   useCdn: false,
 })
